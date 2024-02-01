@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for booking cds view'
+define service Zui_rap_travel_2908 {
+  expose ZI_TRAVEL_M_2908;
+}
