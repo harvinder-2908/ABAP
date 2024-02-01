@@ -33,7 +33,7 @@ CLASS zcl_generate_travel_data_2908 IMPLEMENTATION.
     INSERT ztravel_2908 FROM TABLE @itab.
 
 *   output the result as a console message
-    out->write( |{ sy-dbcnt } travel entries inserted successfully!| ).
+    out->write( |{ sy-dbcnt } travel entries inserted successfully!edit| ).
 
   ENDMETHOD.
 ENDCLASS.
